@@ -61,7 +61,7 @@ window.active.button.toggled.pressed.image.color: #5294E2
 
 window.active.button.hover.bg: Flat Border solid
 window.active.button.hover.bg.color: #454c5c
-window.active.button.hover.bg.border.color: #000
+window.active.button.hover.bg.border.color: #272c34
 window.active.button.hover.image.color: #c7c7c7
 
 window.active.button.pressed.bg: Flat Border solid
