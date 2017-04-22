@@ -1,7 +1,8 @@
+!#ARC-LIGHT
 
 !# General
-padding.width: 9
-padding.height: 3
+padding.width: 12
+padding.height: 5
 window.handle.width:0
 border.Width: 1
 osd.border.width: 1
@@ -13,11 +14,11 @@ menu.overlap: 2
 *.text.justify: center
 
 !# Set *all* fonts here
-menu.items.font:shadow=y:shadowtint=0:shadowoffset=3
-menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=3
-window.active.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
-window.inactive.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
-osd.label.text.font:shadow=y:shadowtint=00:shadowoffset=1
+menu.items.font:shadow=n:shadowtint=0:shadowoffset=3
+menu.items.active.font:shadow=n:shadowtint=0:shadowoffset=3
+window.active.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
+window.inactive.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
+osd.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
 
 
 *.bg.highlight: 0
@@ -44,16 +45,24 @@ window.active.title.bg.color: #E7E8EB
 window.active.label.bg: parentrelative
 
 window.active.button.unpressed.image.color: #6f788d
-window.active.button.pressed.image.color: #5294E2
 window.active.button.disabled.image.color: #2d3036
-window.active.button.hover.image.color: #afb8c5
-
 window.active.button.toggled.unpressed.image.color: #D3DAE3
-window.active.button.toggled.pressed.image.color: #5294E2
-window.active.button.toggled.hover.image.color: #afb8c5
-window.active.button.*.bg: parentrelative
 
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
 
+#button states
+
+window.active.button.hover.bg: Flat Border solid
+window.active.button.hover.bg.color: #fefefe
+window.active.button.hover.bg.border.color: #d2d4db
+window.active.button.hover.image.color: #7a7f8b
+
+window.active.button.pressed.bg: Flat Border solid
+window.active.button.pressed.bg.color: #5294e2
+window.active.button.pressed.bg.border.color: #5294e2
+window.active.button.pressed.image.color: #ffffff
 
 #INACTIVE STUFF
 
@@ -65,8 +74,6 @@ window.inactive.label.bg: parentrelative
 window.inactive.border.color: #B6B6B3
 window.inactive.client.color: #2d3036
 window.inactive.label.text.color: #A4A9B6
-
-
 
 window.inactive.button.*.bg: parentrelative
 window.inactive.button.*.image.color: #b6b8c0

@@ -1,6 +1,8 @@
+!#ARC-DARK
+
 !# General
-padding.width: 10
-padding.height: 3
+padding.width: 12
+padding.height: 5
 window.handle.width:0
 border.Width: 1
 osd.border.width: 1
@@ -12,11 +14,11 @@ menu.overlap: 2
 *.text.justify: center
 
 !# Set *all* fonts here
-menu.items.font:shadow=y:shadowtint=0:shadowoffset=3
-menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=3
-window.active.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
-window.inactive.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
-osd.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
+menu.items.font:shadow=n:shadowtint=0:shadowoffset=3
+menu.items.active.font:shadow=n:shadowtint=0:shadowoffset=3
+window.active.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
+window.inactive.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
+osd.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
 
 *.bg.highlight: 0
 *.bg.shadow:    0
@@ -24,7 +26,7 @@ osd.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
 window.*.highlight: 0
 window.*.shadow:    0
 
-window.active.*.highlight: 25
+window.active.*.highlight: 35
 window.active.*.shadow:    0
 
 window.*.title.separator.color:  #2f343f
@@ -33,7 +35,7 @@ window.*.title.bg.color: #2f343f
 
 #ACTIVE STUFF
 
-window.active.border.color: #0f1115
+window.active.border.color: #1b1e25
 window.active.client.color: #2d3036
 
 window.active.label.text.color: #afb9c6
@@ -41,17 +43,31 @@ window.active.label.text.color: #afb9c6
 window.active.title.bg: raised solid
 window.active.label.bg: parentrelative
 
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+
+
 window.active.button.unpressed.image.color: #afb9c6
 window.active.button.pressed.image.color: #5294E2
 window.active.button.disabled.image.color: #2d3036
-window.active.button.hover.image.color: #afb8c5
+
 
 window.active.button.toggled.unpressed.image.color: #D3DAE3
 window.active.button.toggled.pressed.image.color: #5294E2
-window.active.button.toggled.hover.image.color: #afb8c5
-window.active.button.*.bg: parentrelative
 
 
+#button states
+
+window.active.button.hover.bg: Flat Border solid
+window.active.button.hover.bg.color: #454c5c
+window.active.button.hover.bg.border.color: #000
+window.active.button.hover.image.color: #c7c7c7
+
+window.active.button.pressed.bg: Flat Border solid
+window.active.button.pressed.bg.color: #5294e2
+window.active.button.pressed.bg.border.color: #5294e2
+window.active.button.pressed.image.color: #ffffff
 
 #INACTIVE STUFF
 
@@ -59,7 +75,7 @@ window.active.button.*.bg: parentrelative
 window.inactive.title.bg: flat solid
 window.inactive.label.bg: parentrelative
 
-window.inactive.border.color: #242425
+window.inactive.border.color: #2f343f
 window.inactive.client.color: #2d3036
 window.inactive.label.text.color: #767e8a
 
