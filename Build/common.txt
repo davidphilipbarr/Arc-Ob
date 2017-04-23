@@ -1,0 +1,25 @@
+!# General
+padding.width: 12
+padding.height: 4
+window.handle.width:0
+border.Width: 1
+osd.border.width: 1
+menu.border.width: 0
+window.client.padding.width: 0
+window.client.padding.height: 0
+menu.overlap: 2
+
+*.text.justify: center
+
+!# Set *all* fonts here
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=3
+menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=3
+window.active.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
+window.inactive.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
+osd.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
+
+*.bg.highlight: 0
+*.bg.shadow:    0
+
+window.*.highlight: 0
+window.*.shadow:    0

@@ -5,4 +5,6 @@ I got some stuff from the Arc theme by: Dino Duratović <dinomol at mail dot com
 
 Mostly I attempted to use the gnome-shell/gtk theme for reference. 
 
-It's a bit rough and I might never revisit it...
+Things have got out of hand.
+
+dpbarr@gmail.com

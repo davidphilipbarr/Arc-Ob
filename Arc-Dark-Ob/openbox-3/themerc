@@ -1,8 +1,6 @@
-!#ARC-DARK
-
 !# General
 padding.width: 12
-padding.height: 5
+padding.height: 4
 window.handle.width:0
 border.Width: 1
 osd.border.width: 1
@@ -14,8 +12,8 @@ menu.overlap: 2
 *.text.justify: center
 
 !# Set *all* fonts here
-menu.items.font:shadow=n:shadowtint=0:shadowoffset=3
-menu.items.active.font:shadow=n:shadowtint=0:shadowoffset=3
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=3
+menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=3
 window.active.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
 window.inactive.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
 osd.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
@@ -25,17 +23,11 @@ osd.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
 
 window.*.highlight: 0
 window.*.shadow:    0
-
-window.active.*.highlight: 35
-window.active.*.shadow:    0
-
 window.*.title.separator.color:  #2f343f
 window.*.title.bg.color: #2f343f
 
 
-#ACTIVE STUFF
-
-window.active.border.color: #1b1e25
+window.active.border.color: #1b1e24
 window.active.client.color: #2d3036
 
 window.active.label.text.color: #afb9c6
@@ -47,17 +39,9 @@ window.active.button.unpressed.bg: parentrelative
 window.active.button.pressed.bg: parentrelative
 window.active.button.disabled.bg: parentrelative
 
-
 window.active.button.unpressed.image.color: #afb9c6
 window.active.button.pressed.image.color: #5294E2
 window.active.button.disabled.image.color: #2d3036
-
-
-window.active.button.toggled.unpressed.image.color: #D3DAE3
-window.active.button.toggled.pressed.image.color: #5294E2
-
-
-#button states
 
 window.active.button.hover.bg: Flat Border solid
 window.active.button.hover.bg.color: #454c5c
@@ -69,7 +53,8 @@ window.active.button.pressed.bg.color: #5294e2
 window.active.button.pressed.bg.border.color: #5294e2
 window.active.button.pressed.image.color: #ffffff
 
-#INACTIVE STUFF
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.unpressed.image.color: #afb9c6
 
 
 window.inactive.title.bg: flat solid
@@ -82,8 +67,6 @@ window.inactive.label.text.color: #767e8a
 window.inactive.button.*.bg: parentrelative
 window.inactive.button.*.image.color: #767e8a
 
-
-### MENU
 menu.border.width: 1
 menu.separator.width: 1
 menu.separator.padding.width: 5
@@ -103,15 +86,11 @@ menu.items.active.disabled.text.color: #aeb0b6
 
 menu.items.bg: flat solid
 menu.items.bg.color: #383c4a
+
 menu.items.active.bg: flat solid
 menu.items.active.bg.color: #5294E2
 menu.title.bg: flat solid
 menu.title.bg.color: #2d3036
-
-
-
-
-### OSD
 osd.border.width: 1
 osd.border.color: #2d3036
 osd.label.text.color: #afb9c6
@@ -123,4 +102,3 @@ osd.hilight.bg: flat solid
 osd.hilight.bg.color: #5294E2
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #000000
-
