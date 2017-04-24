@@ -1,5 +1,4 @@
-!# General
-padding.width: 12
+padding.width: 10
 padding.height: 4
 window.handle.width:0
 border.Width: 1
@@ -11,7 +10,6 @@ menu.overlap: 2
 
 *.text.justify: center
 
-!# Set *all* fonts here
 menu.items.font:shadow=y:shadowtint=0:shadowoffset=3
 menu.items.active.font:shadow=y:shadowtint=0:shadowoffset=3
 window.active.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
