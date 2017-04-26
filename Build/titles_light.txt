@@ -1,3 +1,7 @@
+
+window.active.title.bg.highlight: 10
+window.active.title.bg.shadow:    00
+
 window.*.title.separator.color: #E7E8EB
 
 window.active.border.color: #969693
@@ -41,3 +45,7 @@ window.inactive.label.text.color: #A4A9B6
 
 window.inactive.button.*.bg: parentrelative
 window.inactive.button.*.image.color: #b6b8c0
+
+window.*.handle.bg: raised solid
+window.*.handle.bg.color:#E7E8EB
+window.*.grip.bg: parentrelativ

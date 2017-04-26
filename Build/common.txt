@@ -19,5 +19,8 @@ osd.label.text.font:shadow=n:shadowtint=0:shadowoffset=1
 *.bg.highlight: 0
 *.bg.shadow:    0
 
-window.*.highlight: 0
-window.*.shadow:    0
+window.*.grip.bg.highlight: 0
+window.*.grip.bg.shadow:    0
+
+window.*.handle.bg.highlight: 0
+window.*.handle.bg.shadow:    0

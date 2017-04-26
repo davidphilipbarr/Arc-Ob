@@ -9,3 +9,14 @@ osd.hilight.bg: flat solid
 osd.hilight.bg.color: #5294E2
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #000000
+
+osd.button.unpressed.text.color: #d3dae3
+osd.button.pressed.text.color: #d3dae3
+osd.button.focused.text.color #d3dae3
+osd.button.pressed.box.color: #d3dae3
+osd.button.focused.box.color: #444A58
+osd.button.*.bg: flat border solid
+osd.button.*.bg.color: #444A58
+osd.button.*.bg.border.color: #2B2E39
+osd.button.hover.bg.color:#5F6676
+osd.button.pressed.bg.color:#383C4A
