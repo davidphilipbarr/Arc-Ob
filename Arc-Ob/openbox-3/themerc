@@ -30,8 +30,8 @@ window.active.title.bg.shadow:    00
 
 window.*.title.separator.color: #E7E8EB
 
-window.active.border.color: #969693
-#window.active.border.color: #babbbd
+window.*.border.color: #969693
+
 window.active.client.color: #2d3036
 window.active.label.text.color: #6f788d
 
@@ -65,7 +65,6 @@ window.inactive.title.bg: flat solid
 window.inactive.title.bg.color: #E7E8EB
 window.inactive.label.bg: parentrelative
 
-window.inactive.border.color: #B6B6B3
 window.inactive.client.color: #2d3036
 window.inactive.label.text.color: #A4A9B6
 

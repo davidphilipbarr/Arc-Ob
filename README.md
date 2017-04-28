@@ -12,5 +12,9 @@ dpbarr@gmail.com
 Other Arc openbox themes:
 
 https://github.com/dglava/arc-openbox
+
 https://github.com/gcavallo/Arcbox
+
 https://github.com/wjmcknight/openbox-arc-suite
+
+

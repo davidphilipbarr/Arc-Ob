@@ -4,7 +4,7 @@ window.active.title.bg.shadow:    00
 window.*.title.separator.color:  #2f343f
 window.*.title.bg.color: #2f343f
 
-window.active.border.color: #1b1e24
+window.*.border.color: #1b1e24
 window.active.client.color: #2d3036
 
 window.active.label.text.color: #afb9c6
@@ -37,7 +37,6 @@ window.active.button.toggled.unpressed.image.color: #afb9c6
 window.inactive.title.bg: flat solid
 window.inactive.label.bg: parentrelative
 
-window.inactive.border.color: #2f343f
 window.inactive.client.color: #2d3036
 window.inactive.label.text.color: #767e8a
 
